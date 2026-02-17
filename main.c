@@ -8,10 +8,12 @@ int main()
 {
     cell_grid * grid = NULL;
 
-    grid = create_grid(200, 200, 0.01);
+    grid = create_grid(200, 100, 0.01);
 
-    const int screenWidth = grid->width * 4;
-    const int screenHeight = grid->height * 4;
+    int scaling = 4;
+
+    const int screenWidth = grid->width * scaling;
+    const int screenHeight = grid->height * scaling;
 
     InitWindow(screenWidth, screenHeight, "Finite Volume Method");
 
@@ -72,7 +74,7 @@ int main()
                     int color_value = (int)(var * 255);
                     if(color_value > 255) color_value = 255;
                     Color color = {color_value, color_value, color_value, 255};
-                    DrawRectangle(x*4, y*4, 4, 4, color);
+                    DrawRectangle(x*scaling, y*scaling, scaling, scaling, color);
                 }
             }
             

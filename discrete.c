@@ -136,7 +136,6 @@ cell_state_2d compute(cell_state_2d current,
 
 int is_wall(int x, int y, cell_grid* grid)
 {
-    /*
     int x_wall = grid->width / 8;
     int y_wall_start = 3*grid->height / 8;
     int y_wall_end =  5 * grid->height / 8;
@@ -146,7 +145,7 @@ int is_wall(int x, int y, cell_grid* grid)
         return 1;
     }
     return 0;
-    */
+    /*
     int r = grid->height / 8;
     int cy = grid->height / 2;
     int cx = grid->width / 2;
@@ -155,7 +154,7 @@ int is_wall(int x, int y, cell_grid* grid)
     if(dx*dx + dy*dy < r*r)
     {
         return 1;
-    }
+    }*/
         
     return 0;
 }
