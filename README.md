@@ -27,5 +27,5 @@ A window will open with the dimensions of the mesh. By default pressure will be 
 
 As an example the setup describe above at T = 2:
 <p align="center">
-<img src="https://github.com/matzefrdl/FVM-Euler/blob/main/T2.png" alt="Setup described above with at T = 2" width="500"/>  
+<img src="https://github.com/matzefrdl/FVM-Euler/blob/main/T2.png" alt="Setup described above with at T = 2" width="900"/>  
 </p>
