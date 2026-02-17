@@ -187,8 +187,6 @@ void run_timestep(cell_grid* grid, double dt)
             if(x == grid->width - 1)
             {
                 right = current;
-                //right.pressure = 2.0;
-                //TODO: fix energy
             }
             else if(is_wall(x+1, y, grid))
             {

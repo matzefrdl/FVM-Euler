@@ -25,7 +25,8 @@ A window will open with the dimensions of the mesh. By default pressure will be 
 | V  | Speed |
 | D  | density |
 
-As an example the setup describe above at T = 2:
+The solver suffers from numerical dissipation and splitting error.
+As an example the setup described above at T = 2:
 <p align="center">
-<img src="https://github.com/matzefrdl/FVM-Euler/blob/main/T2.png" alt="Setup described above with at T = 2" width="900"/>  
+<img src="https://github.com/matzefrdl/FVM-Euler/blob/main/T2.png" alt="Setup described above with at T = 2" width="800"/>  
 </p>
