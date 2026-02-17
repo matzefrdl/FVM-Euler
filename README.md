@@ -25,7 +25,7 @@ A window will open with the dimensions of the mesh. By default pressure will be 
 | V  | Speed |
 | D  | density |
 
-As an example the setup describe above at T = ...:
+As an example the setup describe above at T = 2:
 <p align="center">
-<img src="https://github.com/matzefrdl/BNN-with-HMC/blob/main/moons_hmc.png" alt="Make moons from sklearn classified with a BNN" width="500"/>  
+<img src="https://github.com/matzefrdl/FVM-Euler/blob/main/T2.png" alt="Setup described above with at T = 2" width="500"/>  
 </p>
