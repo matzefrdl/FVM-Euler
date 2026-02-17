@@ -6,6 +6,9 @@ It only supports squares as finite volumes.
 By default on the left enters a stream with a predefined velocity.
 On the right there is an outflow. On the top and bottom a wall is placed.
 Obstacles can be placed into the volume.
+<p align="center">
+<img src="https://github.com/matzefrdl/FVM-Euler/blob/main/setup.png" alt="Setup for the simulation" width="800"/>  
+</p>
 
 ## Solver
 The code includes an riemann solver of the 1D euler equation. The 2D euler equation are solved with dimensional splitting. The transverse velocity is handled as a passive scalar. For each cell four riemann problems are solved.
